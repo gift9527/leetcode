@@ -1,7 +1,7 @@
 ## leetcode
 python
 
-##Algorithms
+## Algorithms
 * [1. Two Sum](algorithm/TwoSum.py)
 * [2. Add Two Numbers](algorithm/AddTwoNumbers.py)
 * [3. Longest Substring Without Repeating Characters](algorithm/LengthOfLongestSubstring.py)
