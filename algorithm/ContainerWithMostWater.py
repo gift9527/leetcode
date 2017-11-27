@@ -18,7 +18,7 @@ class Solution(object):
                 if height[i] < height[j]:
                     if height[i] * (j - i) > maxArea:
                         maxArea = height[i] * (j - i)
-                    i = i + 1
+                    i = i + 1 
                 else:
                     if height[j] * (j - i) > maxArea:
                         maxArea = height[j] * (j - i)
