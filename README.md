@@ -12,6 +12,7 @@ python
 * [10. Regular Expression Matching](algorithm/RegularExpressionMatching.py)
 * [11. Container With Most Water](algorithm/ContainerWithMostWater.py)
 * [14. Longest Common Prefix](algorithm/LongestCommonPrefix.py)
+* [84. Longest Common Prefix](algorithm/LargestRectangleinHistogram.py)
 
 一天一道题，update 2017.11.27
 
