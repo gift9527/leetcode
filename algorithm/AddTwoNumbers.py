@@ -1,4 +1,4 @@
-#!/usr/bin/python
+ #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 #该问题需要注意的是进位问题，两条链表可能长度不一致，链表的操作细节
