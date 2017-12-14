@@ -15,9 +15,11 @@ python
 * [15. 3Sum](algorithm/3Sum.py)
 * [16. 3SumClosest](algorithm/3SumClosest.py)
 * [17. LetterCombinationsOfAPhoneNumber](algorithm/LetterCombinationsOfAPhoneNumber.py)
+* [18. RemoveNthNodeFromEndofList](algorithm/RemoveNthNodeFromEndofList.py)
+* [19. ValidParentheses](algorithm/ValidParentheses.py)
 * [84. Longest Common Prefix](algorithm/LargestRectangleinHistogram.py)
 
-一天一道题，update 2017.12.04
+一天一道题，update 2017.12.15
 
 
 
