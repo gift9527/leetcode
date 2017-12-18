@@ -17,9 +17,10 @@ python
 * [17. LetterCombinationsOfAPhoneNumber](algorithm/LetterCombinationsOfAPhoneNumber.py)
 * [18. RemoveNthNodeFromEndofList](algorithm/RemoveNthNodeFromEndofList.py)
 * [19. ValidParentheses](algorithm/ValidParentheses.py)
+* [21. MergeTwoSortedLists](algorithm/MergeTwoSortedLists.py)
 * [84. Longest Common Prefix](algorithm/LargestRectangleinHistogram.py)
 
-一天一道题，update 2017.12.15
+一天一道题，update 2017.12.19
 
 
 
