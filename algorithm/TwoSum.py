@@ -14,7 +14,7 @@ class Solution(object):
         """
         buf_dict = {}
         result_list = []
-        for i in xrange(len(nums)):
+        for i in range(len(nums)):
             if nums[i] in buf_dict:
                 result_list.append([buf_dict[nums[i]],i])
             else:
@@ -26,4 +26,4 @@ if __name__ == "__main__":
     target_num = 12
     foo = Solution()
     result = foo.twoSum(num_list,target_num)
-    print result
+    print (result)

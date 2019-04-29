@@ -2,32 +2,25 @@
 
 class Solution(object):
     def maxArea(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
-        """
         if len(height) < 2:
             return False
-        elif len(height) == 2:
-            return min(height)
-        else:
-            i = 0
-            j = len(height) - 1
-            maxArea = 0
-            while (j - i) != 0:
-                if height[i] < height[j]:
-                    if height[i] * (j - i) > maxArea:
-                        maxArea = height[i] * (j - i)
-                    i = i + 1 
-                else:
-                    if height[j] * (j - i) > maxArea:
-                        maxArea = height[j] * (j - i)
-                    j = j - 1
 
-            return maxArea
+        max_area = 0
+        i = 0
+        j = len(height) - 1
 
+        while (j - i) != 0:
+            if height[i] > height[j]:
+                if (j - i) * height[j] > max_area:
+                    max_area = (j - i) * height[j]
+                j -= 1
+            else:
+                if (j - i) * height[i] > max_area:
+                    max_area = (j - i) * height[i]
+                i += 1
+        return max_area
 
 if __name__ == "__main__":
     a = Solution()
-    b = a.maxArea([1, 2, 3, 4, 1])
-    print b
+    b = a.maxArea([1,8,6,2,5,4,8,3,7])
+    print(b)
