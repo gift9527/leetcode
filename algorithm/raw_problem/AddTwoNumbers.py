@@ -51,7 +51,7 @@ if __name__ == "__main__":
     d = c.addTwoNumbers(a_start,b_start)
 
     while d:
-        print d.val
+        print (d.val)
         d = d.next
 
 

@@ -12,7 +12,7 @@ class Solution(object):
             return s
         step, index = 1, 0
         L = [""]*numRows
-        for i in xrange(len(s)):
+        for i in range(len(s)):
             if index == 0:
                 step = 1
             if index == numRows - 1:
@@ -25,7 +25,7 @@ class Solution(object):
 if __name__ == "__main__":
     a = Solution()
     b = a.convert("PAYPALISHIRING",3)
-    print b
+    print(b)
 
 
 

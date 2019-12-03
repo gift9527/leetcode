@@ -17,7 +17,7 @@ class Solution(object):
         while x:
             x, y = divmod(x, 10)
             nums.append(y)
-        for i in xrange(len(nums)):
+        for i in range(len(nums)):
             result = result + nums[i]*pow(10,len(nums)-i-1)
         if flag == 0:
             return  result
@@ -28,8 +28,8 @@ class Solution(object):
 
 if __name__ == "__main__":
     a = Solution()
-    b = a.reverse(9)
-    print b
+    b = a.reverse(-198900)
+    print (b)
 
 
 

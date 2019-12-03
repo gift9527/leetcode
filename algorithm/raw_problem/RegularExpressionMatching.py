@@ -55,6 +55,6 @@ if __name__ == "__main__":
     a = SolutionA()
     b = a.isMatch("aa", "a*")
     if b:
-        print "true"
+        print ("true")
     else:
-        print "false"
+        print ("false")

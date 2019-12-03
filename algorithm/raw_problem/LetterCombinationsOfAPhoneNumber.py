@@ -20,4 +20,4 @@ class Solution(object):
 if __name__ == "__main__":
     a = Solution()
     c = a.letterCombinations("234")
-    print c
+    print(c)

@@ -35,6 +35,6 @@ class Solution(object):
 if __name__ == "__main__":
     a = Solution()
     if a.isValid("["):
-        print "true"
+        print ("true")
     else:
-        print "false"
+        print ("false")

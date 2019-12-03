@@ -24,4 +24,4 @@ class Solution(object):
 if __name__ == "__main__":
     a = Solution()
     b = a.longestPalindrome("babadaba")
-    print b
+    print (b)

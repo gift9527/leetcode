@@ -4,7 +4,7 @@ class Solution(object):
 
     def nSortedSum(self, l, r, n, target, result, results):
         if ((r - l + 1) < n) or (n < 2) or (n * self.nums[l] > target) or (n * self.nums[r] < target):
-            return
+            return []
 
         if n == 2:
             while l < r:
